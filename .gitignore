@@ -1,0 +1,308 @@
+# Created by https://www.toptal.com/developers/gitignore/api/macos,visualstudiocode,jetbrains,c
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,jetbrains,c
+
+###########################################
+# Commodore 64 Development
+###########################################
+
+# Compiled C64 binaries
+*.prg
+*.PRG
+*.d64
+*.D64
+*.d71
+*.D71
+*.d81
+*.D81
+*.t64
+*.T64
+*.tap
+*.TAP
+*.crt
+*.CRT
+*.g64
+*.G64
+*.p00
+*.P00
+
+# Assembler output files
+*.map
+*.MAP
+*.vs
+*.VS
+*.lbl
+*.LBL
+*.labels
+*.LABELS
+*.dbg
+*.DBG
+*.sym
+*.SYM
+*.report
+*.REPORT
+
+# C64 Studio specific
+*.s64
+*.cbmprj
+BuildChain/
+
+# VICE Emulator files
+vicerc
+vice.ini
+*.vkm
+*.vsf
+*.vfl
+*.bmp
+*.pcx
+*.iff
+fliplist-*.vfl
+sdl-*.vkm
+sdl-vicerc
+
+# VICE snapshots and screenshots
+*.vsf
+screenshots/
+snapshots/
+
+# KickAssembler
+*.vs
+*.sym
+
+# ACME Assembler
+*.o
+*.labels
+
+# CA65/CC65
+*.s
+*.inc
+*.cfg
+
+###########################################
+# C Prerequisites
+###########################################
+
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+###########################################
+# JetBrains IDEs (CLion, IntelliJ, etc.)
+###########################################
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# AWS User-specific
+.idea/**/aws.xml
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# SonarLint plugin
+.idea/sonarlint/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+# Sonarlint plugin
+.idea/**/sonarlint/
+
+# SonarQube Plugin
+.idea/**/sonarIssues.xml
+
+# Markdown Navigator plugin
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# Cache file creation bug
+.idea/$CACHE_FILE$
+
+# CodeStream plugin
+.idea/codestream.xml
+
+# Azure Toolkit for IntelliJ plugin
+.idea/**/azureSettings.xml
+
+###########################################
+# macOS
+###########################################
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# iCloud generated files
+*.icloud
+
+###########################################
+# Visual Studio Code
+###########################################
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Ignore all local history of files
+.history
+.ionide
+
+###########################################
+# Build artifacts and logs
+###########################################
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Backup files
+*.backup
+*.old
+*~
+
+###########################################
+# Exceptions (keep these)
+###########################################
+
+# Keep documentation
+!GUI64_Documentation.txt
+!README.md
+!License.txt
+
+# Keep project images (like logo/documentation)
+!GUI64.png
+
+# Keep directory structure
+!Binaries/.gitkeep
+!Code/.gitkeep
