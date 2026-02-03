@@ -306,3 +306,6 @@ Temporary Items
 # Keep directory structure
 !Binaries/.gitkeep
 !Code/.gitkeep
+
+# Ignore VSCode settings except settings.json
+.vscode/settings.json
